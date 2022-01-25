@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: white;
+}
+/* header area start here  */
+.header {}
+/* navigation menu start here  */
+.header .navbar{
+    box-shadow: 3px 4px 13px rgb(209, 209, 211);
+}
+.header .navbar .logo a{
+    text-decoration: none;
+    color:#000;
+    transition: 0.2s;
+}
+.header .navbar .logo a span{
+    color:#407BFF;
+}
+.header .navbar .logo a:hover {
+    color:#407BFF;
+}
+.header .navbar-nav .nav-item .nav-link{
+    font-size: 18px;
+    color:#000;
+    padding: 10px 17px;
+    transition: all 0.3s ease-out ;
+}
+.header .navbar-nav .nav-item .nav-link:hover{
+    color:#407BFF;
+}
+.header nav.sticky{
+    background-color: #21B573;
+}
+
+/* navigation menu ends here  */
+
+/* header area neds here  */
+
+/* Home Page Secetion Start Here  */
+.home{
+    padding-bottom: 50px;
+}
+.home .content-area{
+    margin-top: 150px;
+}
+.home .content-area h1 span{
+    color:#407BFF;
+}
+.home .content-area .btn-style {
+    background-color: #407BFF;
+    padding: 6px 25px;
+    text-transform: capitalize;
+    color:white;
+    font-size: 17px;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 0 0 #3f3d3d;
+    transition: ease-out 0.4s;
+}
+.home .content-area .btn-style:hover{
+    box-shadow: inset 300px 0 0 0 #3f3d3d;
+    color:white;
+}
+/* Home Page Section Ends Here  */
+
+/* About Section Start Here  */
+.about{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: #EFEFEF;
+    margin-bottom: 50px;
+}
+.about .about-content{
+    margin-top: 110px;
+}
+.about .heading {
+    text-align: center;
+    font-weight: 650;
+    padding-bottom: 15px;
+    margin: 0px;
+    padding: 0px;
+    color: #407BFF;
+}
+.about hr{
+    width: 70px;
+    border-width: 4px;
+    border-color:#263238;
+    margin: auto;
+    border-radius: 2px;
+    padding: 3px 0px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+
+}
+.about .about-content .box p{
+    margin-left: 45px;
+}
+.about .about-content .box .fa-procedures{
+    display: initial;
+    font-size:35px;
+}
+/* About Section Ends Here  */
+
+/******* Facility Section Start Here  *******/
+
+.facility {
+    padding-bottom: 50px;
+}
+.facility .heading {
+    text-align: center;
+    font-weight: 650;
+    padding-bottom: 15px;
+    margin: 0px;
+    padding: 0px;
+    color: #407BFF;
+}
+.facility hr{
+    width: 70px;
+    border-width: 4px;
+    border-color:#263238;
+    margin: auto;
+    border-radius: 2px;
+    padding: 3px 0px;
+    margin-top: 4px;
+
+}
+.facility .box{
+    margin-top: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.facility .box img{
+    transition: all 0.5s linear;
+}
+.facility .box:hover img{
+    transform: scale(1.2);
+}
+/**** Facility Section Ends Here  *******/
+
+/****** Review Section Start Here  ******/
+
+.review{
+    background-color: #222E34;
+    padding-bottom: 50px;
+}
+.review hr{
+    width: 70px;
+    border-width: 4px;
+    border-color:#407BFF;
+    margin: auto;
+    border-radius: 2px;
+    padding: 3px 0px;
+    margin-top: 4px;
+
+}
+.review .card {
+    position: relative;
+    margin-top: 70px;
+}
+.review .card img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #407BFF;
+    position: absolute;
+    left: 100px;
+    top: -40px;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgb(155, 151, 151);
+   
+}
+.review .card:hover .card-body{
+    background-color: #407BFF;
+    color:white;
+    cursor: pointer;
+}
+.review .card:hover .card-body h5{
+    color:white ;
+}
+.review .card .card-body{
+  padding-top: 40px;
+transition: all 0.5s ease;
+}
+.review .card .card-body p{
+    letter-spacing: 1px;
+}
+.review .card .card-body h5{
+    color: #407BFF;
+    transition: all 0.5s ease;
+    text-transform: capitalize;
+}
+.review .card .card-body span{
+    font-size:14px ;
+}
+/****** Review Section Ends Here  ******/
+
+/****** Counter Section Starts Here  ******/
+.counter .box{
+    text-align: center;
+    margin: 40px 0px;
+}
+.counter .box .fa-hospital,.fa-users,.fa-smile,.fa-procedures{
+    display: block;
+   margin: auto;
+   font-size: 40px;
+   color:#407BFF;
+   margin-bottom: 10px;
+}
+
+.counter .box span{
+    font-size: 25px;
+    
+}
+.counter .box h3{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    color: #3f3d3d;
+}
+/****** Counter Section Ends Here  ******/
+
+/********* Contact Section Starts Here  *********/
+.contact{
+    padding-bottom: 50px;
+    margin-top: 20px;
+    background-color: #222E34;
+}
+.contact .heading {
+    text-transform: capitalize;
+    text-align: center;
+    color:#fff;
+    font-weight: 650;
+    padding-top: 40px;
+    
+}
+.contact hr{
+    width: 70px;
+    border-width: 4px;
+    border-color:#407BFF;
+    margin: auto;
+    border-radius: 2px;
+    padding: 3px 0px;
+    margin-top: 6px;
+    padding-bottom: 20px;
+
+}
+.contact .btn-style {
+    background-color: #407BFF;
+    padding: 6px 25px;
+    text-transform: capitalize;
+    color:white;
+    font-size: 17px;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 0 0 #3f3d3d;
+    transition: ease-out 0.4s;
+}
+.contact .btn-style:hover{
+    box-shadow: inset 300px 0 0 0 #3f3d3d;
+    color:white;
+}
+
+/********* Contact Section Ends Here  *********/
+
+/*********** Post Section Starts Here  ***********/
+.post {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.post .card{
+    box-shadow:  5px 5px 20px rgb(202, 201, 201);
+}
+.post .heading {
+    text-align: center;
+    font-weight: 650;
+    padding-bottom: 15px;
+    margin: 0px;
+    padding: 0px;
+    color: #407BFF;
+}
+.post hr{
+    width: 70px;
+    border-width: 4px;
+    border-color:#263238;
+    margin: auto;
+    border-radius: 2px;
+    padding: 3px 0px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+
+}
+.post .card:hover .card-body a h3{
+    color:#407BFF;
+    cursor: pointer;
+}
+.post .card .card-body a{
+    text-decoration:none;
+}
+.post .card .card-body a h3{
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-top: 5px;
+    color:rgb(122, 120, 120);
+    
+}
+.post .card .card-body .btn-style {
+    background-color: #407BFF;
+    padding: 6px 25px;
+    text-transform: capitalize;
+    color:white;
+    font-size: 17px;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 0 0 #3f3d3d;
+    transition: ease-out 0.4s;
+}
+.post .card .card-body .btn-style:hover{
+    box-shadow: inset 300px 0 0 0 #3f3d3d;
+    color:white;
+}
+/*********** Post Section Ends Here  ***********/
+
+/************* Footer Section Start Here  *************/
+.footer {
+    padding-bottom:10px;
+    background-color: #3f3d3d;
+    padding-top: 25px;
+}
+.footer .box a{
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+}
+.footer .box ul {
+    list-style: none;
+    text-align: center;
+}
+.footer .box ul li a{
+    font-size: 18px;
+  
+}
+.footer .box ul li a:hover {
+    color:#407BFF;
+}
+.footer .box a span{
+    color:#407BFF;
+}
+/************* Footer Section Ends Here  *************/
+
+
+/* scroll button start here  */
+.to-top a{
+    padding: 5px 10px;
+    background:#407BFF;
+    display: inline-block;
+    font-size: 25px;
+    position: fixed;
+    right: 10px;
+    bottom:10px;
+    border-radius: 5px 5px 0px 0px;
+    color:white;
+    transition: 0.4s;
+    box-shadow: 0px 1px 5px gainsboro;
+}
+.to-top a:hover{
+    background-color: #fff;
+	color:#fff;
+    background-color:#3f3d3d;
+    
+}
+
+/********** Responsive Design Start Here  **********/
+
+@media only screen and (max-width:991px) and (max-width:768px){
+    .review .card {
+        position: relative;
+        margin-top: 70px;
+    }
+    .review .card img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 2px solid #407BFF;
+        position: absolute;
+        left: 122px ;
+        top: -40px;
+        background-color: white;
+        box-shadow: 2px 2px 5px rgb(58, 24, 24);
+       
+    }
+    
+}
+
+@media only screen and (max-width:767px){
+    .review .card {
+        position: relative;
+        margin-top: 70px;
+    }
+    .review .card img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 2px solid #407BFF;
+        position: absolute;
+        left: 200px ;
+        top: -40px;
+        background-color: white;
+        box-shadow: 2px 2px 5px rgb(58, 24, 24);
+       
+    }
+    .review .card .card-body {
+        text-align: center;
+    }
+  
+}
+@media only screen and (max-width:492px){
+    .review .card {
+        position: relative;
+        margin-top: 70px;
+    }
+    .review .card img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 2px solid #407BFF;
+        position: absolute;
+        left: 120px ;
+        top: -40px;
+        background-color: white;
+        box-shadow: 2px 2px 5px rgb(58, 24, 24);
+       
+    }
+   
+}
